@@ -1,18 +1,3 @@
-using System;
-using System.Runtime.InteropServices;
-class Program
-{
-    static void Main()
-    {
-        Console.WriteLine("Enter the base number:");
-        int baseNum = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter the exponent: ");
-        int exponentNum = Convert.ToInt32(Console.ReadLine());
-        double result = Math.Pow(baseNum, exponentNum);
-        Console.WriteLine($"The result is {result}");
-    }
-}
-
 
 
 
